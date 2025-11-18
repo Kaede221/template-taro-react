@@ -7,5 +7,4 @@ node_modules/
 .swc/
 .vscode/
 .idea/
-yarn.lock
 project.private.config.json
