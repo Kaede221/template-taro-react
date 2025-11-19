@@ -5,7 +5,7 @@
 ## 项目简介
 
 - 项目名称: 请你自行填写
-- 技术架构: Taro + React + TypeScript + Redux
+- 技术架构: Taro + React + TypeScript + Zustand
 - 支持平台: 微信小程序、H5、支付宝小程序、QQ小程序、百度小程序等
 
 ## 快速开始
@@ -51,19 +51,16 @@ src/
 │   ├── about/        # 关于页面
 │   ├── index/        # 首页
 │   └── subPages/     # 分包页面
-├── store/            # Redux状态管理
-│   ├── features/     # 功能模块
-│   └── index.ts      # store配置
+├── store/            # 状态管理
 ├── utils/            # 工具函数
 └── types/            # TypeScript类型定义
 ```
 
 ## 核心功能模块
 
-### 1. 状态管理 (Redux)
+### 1. 状态管理
 
-项目使用 Redux Toolkit 进行状态管理，并通过 Redux Persist 实现状态持久化。主要包含用户信息模块。
-
+项目使用 Zustand 做状态管理, 更加轻量.
 ### 2. 网络请求
 
 封装了统一的网络请求工具，支持请求拦截、响应处理、错误处理等功能。
