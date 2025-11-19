@@ -33,7 +33,6 @@
   "author": "",
   "dependencies": {
     "@babel/runtime": "^7.21.5",
-    "@reduxjs/toolkit": "^2.8.2",
     "@tarojs/components": "4.1.6",
     "@tarojs/helper": "4.1.6",
     "@tarojs/plugin-framework-react": "4.1.6",
@@ -50,11 +49,6 @@
     "@tarojs/taro": "4.1.6",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-redux": "^9.2.0",
-    "redux": "^5.0.1",
-    "redux-logger": "^3.0.6",
-    "redux-persist": "^6.0.0",
-    "redux-thunk": "^3.1.0",
     "zustand": "^5.0.8"
   },
   "devDependencies": {
@@ -65,6 +59,7 @@
     "@tarojs/cli": "4.1.6",
     "@tarojs/taro-loader": "4.1.6",
     "@tarojs/webpack5-runner": "4.1.6",
+    "@types/minimatch": "5.1.2",
     "@types/node": "^18.15.11",
     "@types/react": "^18.0.0",
     "@types/sass": "1.43.1",

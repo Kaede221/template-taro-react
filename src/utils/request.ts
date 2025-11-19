@@ -1,5 +1,4 @@
 import Taro, { showToast } from "@tarojs/taro";
-import { store } from "@/store";
 
 const BASE_URL = "";
 
@@ -39,7 +38,6 @@ function BaseOptions<T>(
   method = "GET",
 ): Promise<ResultType<T>> {
   let { url, data } = params;
-  const { token } = store.getState().user;
   let contentType = "application/json";
   contentType = params.contentType || contentType;
 
@@ -50,7 +48,6 @@ function BaseOptions<T>(
         method: method,
         header: {
           "content-type": contentType,
-          Authorization: token ?? "",
         },
         mode: "cors",
         responseType: params.responseType,
@@ -61,7 +58,6 @@ function BaseOptions<T>(
         method: method,
         header: {
           "content-type": contentType,
-          Authorization: token ?? "",
         },
         mode: "cors",
       };
