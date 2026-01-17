@@ -1,8 +1,8 @@
 {
   "miniprogramRoot": "dist/",
-  "projectname": "wself-weapp",
-  "description": "WSelf 社交名片",
-  "appid": "wx5b765009b2f35673",
+  "projectname": "template-taro-react",
+  "description": "",
+  "appid": "",
   "setting": {
     "urlCheck": true,
     "es6": false,
