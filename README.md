@@ -13,24 +13,24 @@
 ### 环境准备
 
 - Node.js >= 16.0.0
-- npm >= 7.0.0
+- pnpm >= 8.0.0
 
 ### 安装依赖
 
 ```bash
-yarn
+pnpm install
 ```
 
 ### 开发模式
 
 ```bash
-yarn dev
+pnpm dev
 ```
 
 ### 构建生产版本
 
 ```bash
-yarn build
+pnpm build
 ```
 
 ## 项目结构
@@ -61,6 +61,7 @@ src/
 ### 1. 状态管理
 
 项目使用 Zustand 做状态管理, 更加轻量.
+
 ### 2. 网络请求
 
 封装了统一的网络请求工具，支持请求拦截、响应处理、错误处理等功能。

@@ -11,7 +11,7 @@
   },
   "scripts": {
     "build": "taro build --type weapp",
-    "dev": "npm run build -- --watch",
+    "dev": "pnpm run build -- --watch",
     "lint:staged": "lint-staged"
   },
   "husky": {
