@@ -4,14 +4,14 @@
   "private": true,
   "description": "请填写该项目的介绍",
   "templateInfo": {
-    "name": "redux",
+    "name": "template-taro-react",
     "typescript": true,
     "css": "Sass",
     "framework": "React"
   },
   "scripts": {
     "build": "taro build --type weapp",
-    "dev": "pnpm run build -- --watch",
+    "dev": "npm run build -- --watch",
     "lint:staged": "lint-staged"
   },
   "husky": {
